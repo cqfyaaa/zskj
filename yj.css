@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0;);
+
+-webkit-box-sizing: border-box;
+
+   -moz-box-sizing: border-box;
+
+        box-sizing: border-box;
+}
+body{font-size: 16px;font-family: "微软雅黑";color: #333333;}
+b{font-weight: normal;}
+i{font-style: normal;}
+a,a:hover,a:active{text-decoration: none;color: #333333;}
+input,textarea,select{outline:none}
+img{border: none;vertical-align:middle;}
+li{list-style: none;}
+
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: both;}
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2V0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxFQUFFLFNBQVMsQ0FBQyxVQUFVOztBQUV0Qiw4QkFBc0I7O0dBQXRCLDJCQUFzQjs7UUFBdEIsc0JBQXNCO0FBQ3RCO0FBQ0EsS0FBSyxlQUFlLENBQUMsbUJBQW1CLENBQUMsY0FBYyxDQUFDO0FBQ3hELEVBQUUsbUJBQW1CLENBQUM7QUFDdEIsRUFBRSxrQkFBa0IsQ0FBQztBQUNyQixtQkFBbUIscUJBQXFCLENBQUMsY0FBYyxDQUFDO0FBQ3hELHNCQUFzQixZQUFZO0FBQ2xDLElBQUksWUFBWSxDQUFDLG1CQUFtQixDQUFDO0FBQ3JDLEdBQUcsZ0JBQWdCLENBQUM7O0FBRXBCLElBQUksV0FBVyxDQUFDO0FBQ2hCLElBQUksWUFBWSxDQUFDO0FBQ2pCLElBQUksV0FBVyxDQUFDO0FBQ2hCO0NBQ0MsV0FBVztDQUNYLGNBQWM7Q0FDZCxXQUFXO0FBQ1oiLCJmaWxlIjoicmVzZXQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKnttYXJnaW46IDA7cGFkZGluZzogMDtcclxuXHJcbmJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuYm9keXtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IFwi5b6u6L2v6ZuF6buRXCI7Y29sb3I6ICMzMzMzMzM7fVxyXG5ie2ZvbnQtd2VpZ2h0OiBub3JtYWw7fVxyXG5pe2ZvbnQtc3R5bGU6IG5vcm1hbDt9XHJcbmEsYTpob3ZlcixhOmFjdGl2ZXt0ZXh0LWRlY29yYXRpb246IG5vbmU7Y29sb3I6ICMzMzMzMzM7fVxyXG5pbnB1dCx0ZXh0YXJlYSxzZWxlY3R7b3V0bGluZTpub25lfVxyXG5pbWd7Ym9yZGVyOiBub25lO3ZlcnRpY2FsLWFsaWduOiB0b3A7fVxyXG5saXtsaXN0LXN0eWxlOiBub25lO31cclxuXHJcbi5mbHtmbG9hdDogbGVmdDt9XHJcbi5mcntmbG9hdDogcmlnaHQ7fVxyXG4uY2x7Y2xlYXI6IGJvdGg7fVxyXG4uY2xlYXJmaXg6OmFmdGVye1xyXG5cdGNvbnRlbnQ6IFwiXCI7XHJcblx0ZGlzcGxheTogdGFibGU7XHJcblx0Y2xlYXI6IGJvdGg7XHJcbn1cclxuIl19 */
+
+html{min-width:1920px;max-width:100%; height:100%;}/*浏览器最大窗口固定度*/
+
+/*html{filter: saturate(0%);}*//*网页全部变成黑白色*/
+
+.zsm,.zj,.rcln,.xz,.cx,.dydz,.cpq,.hdpl,.rcyl,.smq,.sjq,.jrtt.shfwk{
+	border:#F1F3F4 2px solid;padding: 8px;border-radius: 15px;text-shadow: 2px 3px 2px #DEDEDE;box-shadow: 1px 1px 1px 1px #CCCCCC;/*outline: 2px solid gold	*/	/*filter: saturate(0%);*//*让网页变黑白*/
+	margin-left: 10px;margin-right: 10px; /*给每个标题栏的大边框设置 内外边距*/padding: 10px;
+	}
+		
+h3{
+	color:red;font-size:30px;font-weight: 700;  text-shadow: 2px 3px 2px black;/*标题栏设置*/
+	}
+#dbt{	background: linear-gradient(to right,yellow,mediumturquoise,burlywood);text-align: center;/*顶部条设置*/}
+
+#wzwh{margin-top: 10px ;/*网站维护*/}	
+
+.bjcs{background: white; padding:15px; border: dashed;border-color: cyan; /*通知栏边框设置*/}
+
+.zsm{position: relative;/*相对定位*/}
+
+
+
+.zjzd{width:300px;transition-property:width;/*监控的属性名字*/transition-duration: 2s;/*监控需要的时间*/
+/*transition:all 2s;linear;*//*一次性包括所有属性,匀速运动*/}
+
+.zjzd:hover{	width:50%;}/*质检制度放大比例*/	
+
+.xzq:hover{color: red;font-size: 19px;	/*下载鼠标点击变色*/	}
+
+.ssjt{color: #B500FE;font-size: 20px;}/*省份截图标题字体大小颜色*/
+
+a,a:hover,a:active{	text-decoration: none;color: cornflowerblue;	} /*下载省份截图a链接字体颜色设置*/
+
+.bgtb{background: linear-gradient(to right,yellow,red);}/*产品对应字标题和内购价标题背景渐变色*/
+
+.dyz,.ngjg{	color: dodgerblue;}/*产品对应字内容和内购价对应字内容字体颜色*/
+
+.qh{color: red;text-decoration: line-through;}/*缺货产品字体颜色*/
+
+.plxxr{color: red;margin: 10px;}/*评论信息字体红色,字体外边距10像素*/ .plxxg{color: green;margin: 10px;}/*评论信息字体绿色，字体外边距10像素*/
+
+.fhdb,.ft{text-align: center;}/*返回顶部最下面页脚水平中心*/
+
+#box{color: red;}/*滚动通知栏字体颜色设置*/
+
+/*.jinian{font-size: 50px;font-weight: 700;position: fixed;top: 80px;left: 960px; color: red;}*/
+
+.jinian{font-size: 50px;font-weight: 700;position: fixed;top: 180px;left: 960px; color: red; /*页面最上面显示汉字的固定定位*/}
+
+.gq{position: fixed;top: 350px;left: 700px;}/*页面最上面显示图片定位*/
+
+#slan{width: 150px;height: 60px;}/*产品剩余数量按钮*/
+
+#sysl{display: none;}/*产品剩余数量图片隐藏*/
+
+.wltz{background: white; padding:15px; border: dashed;border-color: cyan; /*物流区通知栏边框设置*/}
+
+body{background-color: beige;}
+
+.hdpl{background-color: darkgrey;}
